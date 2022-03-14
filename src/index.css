@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  font-size: 36px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.square {
+  width: 400px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 0.25rem;
+  display: grid;
+  place-content: center;
+}
+
+  .square p {
+    text-align: center;
+  }
+  form {
+    width: 400px;
+  }
+  label {
+    position: absolute;
+    left: -99999px;
+  }
+  input[type="text"] {
+    margin-top: 0.5rem;
+    padding: 0.25rem;
+    width: 100%; 
+    font-size: 1rem;
+    border-radius:  0.25rem;
+    box-shadow: 2px 2px 5px black;
+    outline: none;
+  }
